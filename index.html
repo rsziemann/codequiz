@@ -13,25 +13,19 @@
   <body>
     <div id="quizContainer" class="container">
       <div class="title">Coding Quiz</div>
-      <div id="question" class="question">
-        What type of grade am I going to get on this
-      </div>
+      <div id="question" class="question"></div>
       <label class="option"
-        ><input type="radio" name="option" value="1" />
-        <span id="opt1">maybe an A</span></label
-      >
+        ><input type="radio" name="option" value="1" /> <span id="opt1"></span
+      ></label>
       <label class="option"
-        ><input type="radio" name="option" value="2" />
-        <span id="opt2">or perhaps a B</span></label
-      >
+        ><input type="radio" name="option" value="2" /> <span id="opt2"></span
+      ></label>
       <label class="option"
-        ><input type="radio" name="option" value="3" />
-        <span id="opt3">likely a C</span></label
-      >
+        ><input type="radio" name="option" value="3" /> <span id="opt3"></span
+      ></label>
       <label class="option"
-        ><input type="radio" name="option" value="4" />
-        <span id="opt4">Hopefully not a D</span></label
-      >
+        ><input type="radio" name="option" value="4" /> <span id="opt4"></span
+      ></label>
 
       <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">
         Next Question
@@ -41,5 +35,6 @@
       <div id="result" class="container result" style="display: none;"></div>
     </div>
     <script scr="script.js"></script>
+    <script scr="quizscript.js"></script>
   </body>
 </html>
