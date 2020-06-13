@@ -48,4 +48,7 @@ for(var i =0;) i < questions.length; i++){
         alert("wrong!"); 
     }
 }
+
+// alert at end of quiz
+
 alert("you got " + score + "/" + questions.length);
