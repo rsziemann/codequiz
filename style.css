@@ -7,10 +7,10 @@ body{
 .container{
     height: 330px;
     width: 1000px;
-    postion: absolute;
+    position: absolute;
     top: 50%;
     left:50%
-    transform: translateX(-50%) translateY(-50%);
+    transform; translateX(-50%) translateY(-50%);
     background: rgba(255, 255, 255, 0.5);
     padding: 20px
     border: 1px solid #08038c;
@@ -19,8 +19,8 @@ body{
 
 .title{
     padding-top: 20px;
-    text-alighn: center;
-    front-size: 36px;
+    text-align: center;
+    font-size: 36px;
     text-transform: uppercase;
     color: #08038c;
 }
@@ -37,7 +37,7 @@ body{
     width: 470px;
     display: inline-block;
     padding: 10px 0 10px 15px;
-    vertical-align; middle;
+    vertical-align: middle;
     background: rgba(255, 255, 255, 0.5);
     margin: 10px 0 10px 10px;
     color: #000000;
@@ -69,9 +69,9 @@ body{
 
 }
 
-.result: {
+.result {
     height: 100px;
-    text-align: center:
+    text-align: center;
     font-size: 75px;
 
 }

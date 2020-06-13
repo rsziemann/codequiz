@@ -33,15 +33,16 @@ function loadNextQuestion() {
   }
   selectedOption.checked = false;
   currentQuestion++;
-  if (currentQuestion == totQuestions - 1) {
+  if (currentQuestion === totQuestions - 1) {
     nextButton.textContent = "Finish";
   }
-  if (currentQuestion == totQuestions) {
+  if (currentQuestion === totQuestions) {
     container.style.display = "none";
     resultCont.style.display = "";
     resultCont.textContent = "Your Score: " + score;
     return;
   }
+  loadQu(currentQuestion);
 }
 
 loadQuestion(currentQuestion);
