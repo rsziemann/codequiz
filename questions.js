@@ -1,4 +1,4 @@
-//list of all questions, options, and answers
+//list of all questions, options, and answers, this is an array of objects
 
 var questions = [
   {
