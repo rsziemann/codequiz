@@ -40,7 +40,7 @@ var questions = [
   },
   {
     question:
-      "String values must be enclosed wihtin ___when being assigned to variables.",
+      "String values must be enclosed within ___when being assigned to variables.",
     option1: "commas",
     option2: "curly brakcets",
     option3: "quotes",
@@ -49,7 +49,7 @@ var questions = [
   },
   {
     question:
-      "A very useful too used during development and debuffing for printing content to the debugger is:",
+      "A very useful too used during development and debugging for printing content to the debugger is:",
     option1: "JavaScript",
     option2: "terminal/bash",
     option3: "for loops",
