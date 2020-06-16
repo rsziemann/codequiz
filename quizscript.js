@@ -50,7 +50,7 @@ var questions = [
   },
   {
     question:
-      " A very useful too used during development and debugging for printing content to the debugger is:",
+      " giA very useful too used during development and debugging for printing content to the debugger is:",
     option1: "JavaScript",
     option2: "terminal/bash",
     option3: "for loops",
@@ -131,3 +131,7 @@ loadQuestion(currentQuestion);
 setInterval(function () {
   updateCountdown();
 }, 1000);
+
+//var resultCont = localStorage.getItem("Your Score:" + score);
+//localStorage.setItem("Your Score" + score);
+//local storage error someplace preventing score from showing
