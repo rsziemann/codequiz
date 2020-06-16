@@ -27,7 +27,7 @@ var questions = [
     option1: "quotes",
     option2: "curly brackets",
     option3: "parentheses",
-    option4: "quare brakcets",
+    option4: "guard brackets",
     answer: "3",
   },
   {
@@ -42,7 +42,7 @@ var questions = [
     question:
       "String values must be enclosed within ___when being assigned to variables.",
     option1: "commas",
-    option2: "curly brakcets",
+    option2: "curly brackets",
     option3: "quotes",
     option4: "parentheses",
     answer: "3",
