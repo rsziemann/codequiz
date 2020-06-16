@@ -15,7 +15,7 @@ function updateCountdown() {
 
 var questions = [
   {
-    question: "Commonly used data types DO NOT include:",
+    question: " Commonly used data types DO NOT include:",
     option1: "strings",
     option2: "boolean",
     option3: "alert",
@@ -23,7 +23,8 @@ var questions = [
     answer: "3",
   },
   {
-    question: "The condition in an if/ else statement is enclosed within ____.",
+    question:
+      " The condition in an if/ else statement is enclosed within ____.",
     option1: "quotes",
     option2: "curly brackets",
     option3: "parentheses",
@@ -31,7 +32,7 @@ var questions = [
     answer: "3",
   },
   {
-    question: "Arrays in JavaScript can be used to store ____.",
+    question: " Arrays in JavaScript can be used to store ____.",
     option1: "numbers and strings",
     option2: "other arrays",
     option3: "booleans",
@@ -40,7 +41,7 @@ var questions = [
   },
   {
     question:
-      "String values must be enclosed within ___when being assigned to variables.",
+      " String values must be enclosed within ___when being assigned to variables.",
     option1: "commas",
     option2: "curly brackets",
     option3: "quotes",
@@ -49,7 +50,7 @@ var questions = [
   },
   {
     question:
-      "A very useful too used during development and debugging for printing content to the debugger is:",
+      " A very useful too used during development and debugging for printing content to the debugger is:",
     option1: "JavaScript",
     option2: "terminal/bash",
     option3: "for loops",
