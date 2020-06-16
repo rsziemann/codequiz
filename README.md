@@ -1,4 +1,6 @@
 # codequiz
 
 This application is a short quiz on coding
-I need to add a photo here
+This application focuses on javascript, utilizing and array of objects as well as a timer feature.
+
+![](Images/screenshot.png)
